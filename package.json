@@ -1,0 +1,33 @@
+{
+	"name": "network-tomography",
+	"version": "1.0.2",
+	"description": "Tool to analyze and monitor network traffic",
+	"keywords": [
+		"node",
+		"network",
+		"packet",
+		"monitor",
+		"analyzer",
+		"traffic"
+	],
+	"bugs": "https://github.com/NagabhushanS/network-tomography/issues",
+	"author": "Nagabhushan S Baddi",
+	"license": "MIT",
+	"bin": {
+		"network-tomography": "./bin/network-tomography"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/NagabhushanS/network-tomography.git"
+	},
+	"dependencies": {
+		"pcap": "*",
+		"argv": "*",
+		"blessed": "*",
+		"moment": "*"
+	},
+	"engines": {
+		"node": ">=0.10.25"
+	},
+	"preferGlobal": true
+}
